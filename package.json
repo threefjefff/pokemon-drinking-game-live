@@ -1,0 +1,31 @@
+{
+  "name": "pokemon-drinking-game-live",
+  "version": "1.0.0",
+  "description": "Get blackout drunk with friends at a distance",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threefjefff/pokemon-drinking-game-live.git"
+  },
+  "author": "jsmb/mporter",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/threefjefff/pokemon-drinking-game-live/issues"
+  },
+  "homepage": "https://github.com/threefjefff/pokemon-drinking-game-live#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.165",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}
